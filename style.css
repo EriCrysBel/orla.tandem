@@ -1,0 +1,128 @@
+*{
+  margin:0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#navbar {
+  background-color: #fbeed7;
+  color: rgb(255, 255, 255);
+  display: flex;
+  align-items: center;
+  padding: 10px;
+}
+
+#logo {
+  width: 50px;
+  height: 50px;
+  margin-right: 10px;
+}
+
+#tabs {
+  display: flex;
+  list-style: none;
+  padding: 0;
+}
+
+#tabs li {
+  margin-right: 10px;
+}
+
+#tabs a {
+  text-decoration: none;
+  color: rgb(154, 96, 3);
+  padding: 5px 10px;
+}
+
+#tabs a:hover {
+  background-color: rgb(154, 96, 3);
+  border-radius: 50%;
+  color: aliceblue;
+}
+h1:hover{
+  background-color: #fbeed7;
+  border-radius: 60%;
+}
+@keyframes slideIn {
+  from {
+      transform: translateX(100%);
+  }
+  to {
+      transform: translateX(0);
+  }
+}
+
+@keyframes slideOut {
+  from {
+      transform: translateX(-100%);
+  }
+  to {
+      transform: translateX(0);
+  }
+}
+
+
+body{
+  font-family: 'Trebuchet MS', sans-serif;
+  font-size: 120%;
+}
+
+.encabezado{
+  margin-top: 1em;
+  margin-left: 1em;
+  text-align: center;
+}
+
+
+.direccion{
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  animation: slideIn 2s;
+}
+.direccion img{
+  width: 150px;
+  height: 200px;
+  border-radius: 50%;
+
+}
+.second{
+  margin-top: 2em;
+  padding: 0.5em;
+  margin-bottom: 1em;
+}
+.second img{
+  box-shadow: rgb(162, 161, 161) 0.3em 0.2em 0.3em 0.2em;
+  border: #fbeed7 solid .5em;
+}
+.nombre{
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: bold;
+  text-align: center;
+}
+.cargo{
+  font-size: 80%;
+}
+
+
+
+.alumnado{
+  display: flex;
+  justify-content: center;
+  flex-flow: wrap;
+  animation:slideOut 2s;
+}
+.alumnado img{
+  width: 150px;
+  height: 200px;
+  margin:1em 1em 0 1em;
+  border-radius: 50%;
+  box-shadow: rgb(162, 161, 161) 0.3em 0.2em 0.3em 0.2em;
+  border: #fbeed7 solid .5em;
+}
+footer{
+  text-align: center;
+  padding: 3em;
+}
+
+
