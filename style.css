@@ -43,6 +43,9 @@ h1:hover{
   background-color: #fbeed7;
   border-radius: 60%;
 }
+.alumno:hover{
+  transform: scale(1.2);
+}
 @keyframes slideIn {
   from {
       transform: translateX(100%);
@@ -95,6 +98,16 @@ body{
   box-shadow: rgb(162, 161, 161) 0.3em 0.2em 0.3em 0.2em;
   border: #fbeed7 solid .5em;
 }
+.second:hover{
+  transform: scale(1.2);
+
+}
+.second img:hover{
+  border:rgb(154, 96, 3) solid .5em;
+}
+.alumno img:hover{
+  border:rgb(154, 96, 3) solid .5em;
+}
 .nombre{
   font-family:Verdana, Geneva, Tahoma, sans-serif;
   font-weight: bold;
@@ -120,9 +133,22 @@ body{
   box-shadow: rgb(162, 161, 161) 0.3em 0.2em 0.3em 0.2em;
   border: #fbeed7 solid .5em;
 }
+.andres{
+  margin: 0 1em 0 1em;
+}
+.cristian{
+  margin: 0 1em 0 1em;
+}
+.alberto{
+  margin: 0 1em 0 1em;
+}
 footer{
   text-align: center;
   padding: 3em;
+}
+
+
+
 }
 
 
